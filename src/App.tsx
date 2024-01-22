@@ -3,24 +3,84 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main className="px-4 md:px-[initial] bg-gray-900 text-white">
+			<section className="flex py-24 justify-center items-center">
+				<div
+					className="absolute w-full  bg-no-repeat bg-center bg-cover blur-sm h-1/2"
+					style={{
+						backgroundImage:
+							'linear-gradient(to bottom, transparent, rgb(17 24 39) 85%) ,url(./images/school.jpg)',
+					}}
+				></div>
+				<div className="z-10">
+					<h1 className=" flex flex-col gap-10 mb-4 text-5xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-white">
+						Bọn mình là{' '}
+						<span className="block whitespace-nowrap underline underline-offset-3 decoration-8 text-emerald-400 decoration-white">
+							tiểu đội
+							<img
+								className="inline-block w-10"
+								src="https://static.xx.fbcdn.net/images/emoji.php/v9/t67/1/32/270c.png"
+								alt=""
+							/>
+						</span>
+					</h1>
+				</div>
+			</section>
+			<section className="container pt-24 mx-auto">
+				<h2 className="text-4xl font-bold dark:text-white">
+					Hành trình của bọn mình
+				</h2>
+				<div className="pt-20 flex justify-center items-center">
+					<ol className="relative border-s  border-white">
+						<li className="mb-10 ms-4">
+							<div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border  border-emerald-400 bg-emerald-400" />
+							<time className="mb-1 text-sm font-normal leading-none  text-gray-500">
+								18 Tháng 1 Năm 2024
+							</time>
+							<h3 className="text-lg font-semibold  text-white">
+								Nơi mọi thứ bắt đầu
+							</h3>
+							<div className="mt-2">
+								<figure className="max-w-2xl">
+									<div className="flex flex-col md:grid md:grid-cols-2 gap-3">
+										<img
+											className="h-auto max-w-full rounded-lg"
+											src="./images/group.jpg"
+											alt="image description"
+										/>
+										<img
+											className="h-auto max-w-full rounded-lg"
+											src="./images/group2.jpg"
+											alt="image description"
+										/>
+									</div>
+									<figcaption className="mt-2 text-sm text-center text-gray-400">
+										Cổng sau Đại Học Sài Gòn
+									</figcaption>
+								</figure>
+							</div>
+						</li>
+						<li className="ms-4">
+							<div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border  border-emerald-400 bg-emerald-400" />
+							<time className="mb-1 text-sm font-normal leading-none  text-gray-500">
+								Tương lai
+							</time>
+							<h3 className="text-lg font-semibold  text-white">Còn tiếp</h3>
+							<p className="text-base font-normal text-gray-400">
+								Hãy mong chờ những điều mà bọn tớ sẽ làm{' '}
+								<span className="text-emerald-400">cùng nhau</span> nhé!
+							</p>
+						</li>
+					</ol>
+				</div>
+			</section>
+			<section className="container pt-24  mx-auto">
+				<h2 className="text-4xl font-bold text-white">Thành viên</h2>
+				<div className=""></div>
+			</section>
+		</main>
+	);
 }
 
 export default App;
