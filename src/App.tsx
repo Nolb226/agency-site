@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Card from './components/Card';
+import data from './__mock__';
 
 function App() {
 	return (
-		<main className="px-4 md:px-[initial] bg-gray-900 text-white">
+		<main className="px-4 lg:p-[initial] bg-gray-900 text-white">
 			<section className="flex py-24 justify-center items-center">
 				<div
 					className="absolute w-full  bg-no-repeat bg-center bg-cover blur-sm h-1/2"
@@ -28,7 +30,7 @@ function App() {
 				</div>
 			</section>
 			<section className="container pt-24 mx-auto">
-				<h2 className="text-4xl font-bold dark:text-white">
+				<h2 className="text-4xl md:text-center font-bold dark:text-white">
 					Hành trình của bọn mình
 				</h2>
 				<div className="pt-20 flex justify-center items-center">
@@ -42,7 +44,7 @@ function App() {
 								Nơi mọi thứ bắt đầu
 							</h3>
 							<div className="mt-2">
-								<figure className="max-w-2xl">
+								<figure className="max-w-3xl">
 									<div className="flex flex-col md:grid md:grid-cols-2 gap-3">
 										<img
 											className="h-auto max-w-full rounded-lg"
@@ -61,6 +63,28 @@ function App() {
 								</figure>
 							</div>
 						</li>
+						<li className="mb-10 ms-4">
+							<div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border  border-emerald-400 bg-emerald-400" />
+							<time className="mb-1 text-sm font-normal leading-none  text-gray-500">
+								18 Tháng 1 Năm 2024
+							</time>
+							<h3 className="text-lg font-semibold  text-white">
+								Làm việc cùng nhau
+							</h3>
+							<div className="mt-2">
+								<video
+									className="w-full h-auto max-w-3xl border border-gray-700 rounded-lg"
+									controls
+									autoPlay
+								>
+									<source src="./videos/time-lapse.mp4" type="video/mp4" />
+									Your browser does not support the video tag.
+								</video>
+							</div>
+							<p className="text-gray-500">
+								Chia công việc và giao lưu với nhau.
+							</p>
+						</li>
 						<li className="ms-4">
 							<div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border  border-emerald-400 bg-emerald-400" />
 							<time className="mb-1 text-sm font-normal leading-none  text-gray-500">
@@ -76,8 +100,22 @@ function App() {
 				</div>
 			</section>
 			<section className="container pt-24  mx-auto">
-				<h2 className="text-4xl font-bold text-white">Thành viên</h2>
-				<div className=""></div>
+				<h2 className="text-4xl md:text-center font-bold text-white">
+					Thành viên
+				</h2>
+				<div className="mt-6">
+					<h3 className="text-3xl font-semibold md:text-center">The boy.</h3>
+					<div className="mt-4 flex items-center flex-col gap-2 md:grid md:grid-cols-3">
+						{data.boys.map((p: any) => {
+							return <Card {...p} />;
+						})}
+					</div>
+					<div className="mt-4 flex items-center flex-col gap-2 md:grid md:grid-cols-3">
+						{data.girls.map((p: any) => {
+							return <Card {...p} />;
+						})}
+					</div>
+				</div>
 			</section>
 		</main>
 	);

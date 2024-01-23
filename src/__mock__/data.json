@@ -1,0 +1,36 @@
+{
+	"boys": [
+		{
+			"img": "./persons/ntkh.jpg",
+			"name": "Nguyễn Trương Khánh Hoàng",
+			"primary": "Kỹ thuật phần mềm",
+			"role": "member"
+		},
+		{
+			"img": "./persons/vuongdanganhkiet.jpg",
+			"name": "Vương Đặng Anh Kiệt",
+			"primary": "Quản trị kinh doanh",
+			"role": "captain"
+		},
+		{
+			"img": "./persons/tanbaokhang-fixed.jpg",
+			"name": "Tần Bảo Khang",
+			"primary": "Quản trị kinh doanh",
+			"role": "member"
+		}
+	],
+	"girls": [
+		{
+			"img": "./persons/buithingochong-fixed.jpg",
+			"name": "Bùi Thị Ngọc Hồng",
+			"primary": "Tài chính - Kế Toán",
+			"role": "member"
+		},
+		{
+			"img": "./persons/khuumyhoang.jpg",
+			"name": "Khưu Mỹ Hoàng",
+			"primary": "Văn hóa và Du Lịch",
+			"role": "vice-captain"
+		}
+	]
+}
