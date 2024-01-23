@@ -1,16 +1,16 @@
 {
 	"boys": [
 		{
-			"img": "./persons/ntkh.jpg",
-			"name": "Nguyễn Trương Khánh Hoàng",
-			"primary": "Kỹ thuật phần mềm",
-			"role": "member"
-		},
-		{
 			"img": "./persons/vuongdanganhkiet.jpg",
 			"name": "Vương Đặng Anh Kiệt",
 			"primary": "Quản trị kinh doanh",
 			"role": "captain"
+		},
+		{
+			"img": "./persons/ntkh.jpg",
+			"name": "Nguyễn Trương Khánh Hoàng",
+			"primary": "Kỹ thuật phần mềm",
+			"role": "member"
 		},
 		{
 			"img": "./persons/tanbaokhang-fixed.jpg",
@@ -21,16 +21,46 @@
 	],
 	"girls": [
 		{
+			"img": "./persons/khuumyhoang.jpg",
+			"name": "Khưu Mỹ Hoàng",
+			"primary": "Văn hóa và Du Lịch",
+			"role": "vice-captain"
+		},
+		{
 			"img": "./persons/buithingochong-fixed.jpg",
 			"name": "Bùi Thị Ngọc Hồng",
 			"primary": "Tài chính - Kế Toán",
 			"role": "member"
 		},
 		{
-			"img": "./persons/khuumyhoang.jpg",
-			"name": "Khưu Mỹ Hoàng",
-			"primary": "Văn hóa và Du Lịch",
-			"role": "vice-captain"
+			"img": "./persons/lamkimlinh.jpg",
+			"name": "Lâm Kim Linh ",
+			"primary": "Tài chính ngân hàng",
+			"role": "member"
+		},
+		{
+			"img": "./persons/lethithanhhuyen.jpg",
+			"name": "Lê Thị Thanh Huyền",
+			"primary": "Tài chính kế toán",
+			"role": "member"
+		},
+		{
+			"img": "./persons/nguyenthimylinh-fixed.jpg",
+			"name": "Nguyễn Thị Mỹ Linh ",
+			"primary": "Quản trị kinh doanh",
+			"role": "member"
+		},
+		{
+			"img": "./persons/nguyenthithaoly-fixed.jpg",
+			"name": "Nguyễn Thị Thảo Ly",
+			"primary": "Thư viện - Văn phòng",
+			"role": "member"
+		},
+		{
+			"img": "./persons/vunguyenthithanhha.jpg",
+			"name": "Vũ Nguyễn Thị Thanh Hòa",
+			"primary": "Tài chính - Kế Toán",
+			"role": "member"
 		}
 	]
 }

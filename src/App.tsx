@@ -74,7 +74,7 @@ function App() {
 							<div className="mt-2">
 								<video
 									className="w-full h-auto max-w-3xl border border-gray-700 rounded-lg"
-									controls
+									loop
 									autoPlay
 								>
 									<source src="./videos/time-lapse.mp4" type="video/mp4" />
@@ -99,18 +99,24 @@ function App() {
 					</ol>
 				</div>
 			</section>
-			<section className="container pt-24  mx-auto">
+			<section className="container py-24  mx-auto">
 				<h2 className="text-4xl md:text-center font-bold text-white">
 					Thành viên
 				</h2>
-				<div className="mt-6">
-					<h3 className="text-3xl font-semibold md:text-center">The boy.</h3>
-					<div className="mt-4 flex items-center flex-col gap-2 md:grid md:grid-cols-3">
+				<div className="mt-6 flex flex-col gap-5">
+					<h3 className="text-3xl font-semibold md:text-center uppercase">
+						The boy.
+					</h3>
+					<div className="mt-4 items-center justify-center grid grid-cols-2 lg:grid-cols-3 gap-4">
 						{data.boys.map((p: any) => {
 							return <Card {...p} />;
 						})}
 					</div>
-					<div className="mt-4 flex items-center flex-col gap-2 md:grid md:grid-cols-3">
+
+					<h3 className="text-3xl font-semibold md:text-center uppercase ">
+						The girl.
+					</h3>
+					<div className="mt-4 items-center justify-center grid grid-cols-2 lg:grid-cols-3 gap-4">
 						{data.girls.map((p: any) => {
 							return <Card {...p} />;
 						})}
