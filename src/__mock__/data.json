@@ -1,66 +1,106 @@
 {
 	"boys": [
 		{
+			"id": 1,
 			"img": "./persons/vuongdanganhkiet.jpg",
 			"name": "Vương Đặng Anh Kiệt",
 			"primary": "Quản trị kinh doanh",
-			"role": "captain"
+			"role": "captain",
+			"introduce": "Xin chào, mình là sinh viên ngành Kinh Doanh Quốc Tế năm 2 tại SGU. Mình thích nhảy và hiện tại mình cũng đang học, tìm hiểu về bản đồ sao. Mong mình và nhiều mình sẽ có kỷ niệm đẹp ở lớp quốc phòng 3 này.",
+			"gender": true,
+			"audio": "./voices/vuongdanganhkiet.mp3"
 		},
 		{
+			"id": 2,
 			"img": "./persons/ntkh.jpg",
 			"name": "Nguyễn Trương Khánh Hoàng",
-			"primary": "Kỹ thuật phần mềm",
-			"role": "member"
+			"primary": "Công nghệ thông tin",
+			"role": "member",
+			"introduce": "Mình hiện đang là sinh viên năm thứ ba tại trường Đại học Sài Gòn, chuyên ngành Kỹ thuật Phần mềm. Mình rất đam mê lập trình và mong muốn trở thành một lập trình viên giỏi sau khi tốt nghiệp - hacker. Bên cạnh đó, mình cũng là một người có nhiều sở thích khác nhau. Mình yêu thích âm nhạc và thường dành thời gian rảnh rỗi để hát hò với bạn bè. Cuối cùng, mong mình sẽ có nhiều kỷ niệm đẹp với mọi người",
+			"gender": true,
+			"audio": "./voices/ntkh.mp3"
 		},
 		{
+			"id": 3,
 			"img": "./persons/tanbaokhang-fixed.jpg",
 			"name": "Tần Bảo Khang",
 			"primary": "Quản trị kinh doanh",
-			"role": "member"
+			"role": "member",
+			"introduce": "Xin chào mọi người, mình hiện đang là sinh viên năm 3 theo học ngành Quản Trị Kinh Doanh. Sở thích của mình là bóng rổ và ăn uống. Rất vui khi được phân vào tiểu đội 2 và mong rằng mình sẽ có thật nhiều quãng thời gian đẹp với cô Thoa với tiểu đội và với Trung đội 11- Quốc Phòng An Ninh III",
+			"gender": true,
+			"audio": "./voices/khang.m4a"
 		}
 	],
 	"girls": [
 		{
+			"id": 4,
 			"img": "./persons/khuumyhoang.jpg",
 			"name": "Khưu Mỹ Hoàng",
 			"primary": "Văn hóa và Du Lịch",
-			"role": "vice-captain"
+			"role": "vice-captain",
+			"introduce": "Mình hiện tại là sinh viên năm 2 Ngành Du lịch. Mình có đam mê với du lịch và mong muốn trở thành một người làm việc trong lĩnh vực du lịch để giới thiệu bản sắc văn hóa dân tộc của nước mình đến với bạn bè quốc tế. Hi vọng tụi mình có những khoảng thời gian đẹp bên nhau trong 8 tuần này nhe ><",
+			"gender": false,
+			"audio": "./voices/myhoang.mp3"
 		},
 		{
+			"id": 5,
 			"img": "./persons/buithingochong-fixed.jpg",
 			"name": "Bùi Thị Ngọc Hồng",
 			"primary": "Tài chính - Kế Toán",
-			"role": "member"
+			"role": "member",
+			"introduce": "Xin chào mọi người mình hiện đang là sinh viên năm 2 ngành kế toán. Sở thích của mình là đi du lịch. Hi vọng ở học phần Quốc Phòng III này chúng ta sẽ có những kỉ niệm đẹp, đáng nhớ về nhau. ",
+			"gender": false,
+			"audio": "./voices/buithingochong.mp3"
 		},
 		{
+			"id": 6,
 			"img": "./persons/lamkimlinh.jpg",
 			"name": "Lâm Kim Linh ",
 			"primary": "Tài chính ngân hàng",
-			"role": "member"
+			"role": "member",
+			"introduce": "Hiện tại mình là sinh viên năm 3, mình thích được “đếm tiền” nên mình là sinh viên ngành Tài Chính Ngân Hàng, mong là tụi mình sẽ có kỷ niệm đẹp với học phần Quốc Phòng 3 kỳ này 👋🏻 ",
+			"gender": false,
+			"audio": "./voices/lamkimlinh.mp3"
 		},
 		{
+			"id": 7,
 			"img": "./persons/lethithanhhuyen.jpg",
 			"name": "Lê Thị Thanh Huyền",
 			"primary": "Tài chính kế toán",
-			"role": "member"
+			"role": "member",
+			"introduce": "Xin chào các đồng chí, mình hiện đang là sinh viên năm 2 tại trường Đại học học Sài Gòn chuyên ngành Tài chính ngân hàng. Mình rất đam mê đọc sách, chụp hình. Mình rất vui khi được tham gia vào tiểu đội 2 trung đội 11 , mong muốn có kỉ niệm đẹp trong 8 tuần học này🫶🏻",
+			"gender": false,
+			"audio": "./voices/lethithanhhuyen.mp3"
 		},
 		{
+			"id": 8,
 			"img": "./persons/nguyenthimylinh-fixed.jpg",
 			"name": "Nguyễn Thị Mỹ Linh ",
 			"primary": "Quản trị kinh doanh",
-			"role": "member"
+			"role": "member",
+			"introduce": "Xin chào , mình học năm 3 ngành quản trị kinh doanh . \nTính cách : nói nhiều ( khi có người chịu lắng nghe )\nSở thích:  cây cối , thích đi đây đi đó , thích được chụp hình và chụp hình cho mọi người 📸 thích hát bài happy birthday tất cả các dịp , thích kiếm chuyện với người vô tội :)))) \nGiựt được lớp quốc phòng 3 mình cảm thấy rất may mắn , trong các buổi học sắp tới mình muốn nạp thêm nhiều kiến thức , kinh nghiệm và trải nghiệm đáng nhớ với cô và các bạn nghenn ✨",
+			"gender": false,
+			"audio": "./voices/nguyenmylinh.mp3"
 		},
 		{
+			"id": 9,
 			"img": "./persons/nguyenthithaoly-fixed.jpg",
 			"name": "Nguyễn Thị Thảo Ly",
 			"primary": "Thư viện - Văn phòng",
-			"role": "member"
+			"role": "member",
+			"introduce": "Chào mọi người, mình hiện đang là sinh viên năm 2 của trường ĐH Sài Gòn ngành Thông tin - thư viện. Vì phần lớn thời gian mình dành để ngủ nên hi vọng học phần QP 3 này sẽ giúp mình có thêm nhiều kỷ niệm đáng nhớ hơn",
+			"gender": false,
+			"audio": "./voices/nguyenthithaoly.mp3"
 		},
 		{
+			"id": 10,
 			"img": "./persons/vunguyenthithanhha.jpg",
 			"name": "Vũ Nguyễn Thị Thanh Hòa",
 			"primary": "Tài chính - Kế Toán",
-			"role": "member"
+			"role": "member",
+			"introduce": "Xin chào mọi người mình hiện đang là sinh viên năm 2 ngành kế toán. Sở thích của mình là nuôi mèo. Rất vui khi được tham gia vào tiểu đội 2.  Hi vọng ở học phần Quốc Phòng III này chúng ta sẽ có những kỉ niệm đẹp, đáng nhớ về nhau. ",
+			"gender": false,
+			"audio": "./voices/thanhhoa.mp3"
 		}
 	]
 }
